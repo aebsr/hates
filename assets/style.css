@@ -1,0 +1,110 @@
+/*! normalize.css v2.1.0 | MIT License | git.io/normalize */
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{ display:block}audio,canvas,video{ display:inline-block}audio:not([controls]){ display:none; height:0}[hidden]{ display:none}html{ font-family:sans-serif; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%}body{ margin:0}a:focus{ outline:thin dotted}a:active,a:hover{ outline:0}h1{ font-size:2em; margin:0.67em 0}abbr[title]{ border-bottom:1px dotted}b,strong{ font-weight:bold}dfn{ font-style:italic}hr{ -moz-box-sizing:content-box; box-sizing:content-box; height:0}mark{ background:#ff0; color:#000}code,kbd,pre,samp{ font-family:monospace,serif; font-size:1em}pre{ white-space:pre-wrap}q{ quotes:"\201C""\201D""\2018""\2019"}small{ font-size:80%}sub,sup{ font-size:75%; line-height:0; position:relative; vertical-align:baseline}sup{ top:-0.5em}sub{ bottom:-0.25em}img{ border:0}svg:not(:root){ overflow:hidden}figure{ margin:0}fieldset{ border:1px solid #c0c0c0; margin:0 2px; padding:0.35em 0.625em 0.75em}legend{ border:0; padding:0}button,input,select,textarea{ font-family:inherit; font-size:100%; margin:0}button,input{ line-height:normal}button,select{ text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{ -webkit-appearance:button; cursor:pointer}button[disabled],html input[disabled]{ cursor:default}input[type="checkbox"],input[type="radio"]{ box-sizing:border-box; padding:0}input[type="search"]{ -webkit-appearance:textfield; -moz-box-sizing:content-box; -webkit-box-sizing:content-box; box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{ -webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{ border:0; padding:0}textarea{ overflow:auto; vertical-align:top}table{ border-collapse:collapse; border-spacing:0}
+
+/* i hate static css*/
+html, body {
+	height: 100%;
+}
+
+body {
+	font: 400 1em/1.5 "proxima-nova-alt-condensed", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Lucida Grande", Helvetica, Arial, sans-serif;
+	background: #fed227;
+	color: #013068;
+}
+
+h2 {
+	font: 700 3em/1 "adobe-caslon-pro", "Times New Roman", Times, Georgia, serif;
+	margin: 0;
+	padding: 0.5em 0 .25em;
+	border: 1px solid #1d1d1d;
+	border-right: none;
+	border-left: none;
+	position: relative;
+	z-index: 1;
+}
+
+section a {
+	color: #069dd5;
+	text-decoration: none;
+	font-style: italic;
+	padding: 0 .25em;
+	background: white;
+}
+
+section a:hover {
+	background: #069dd5;
+	color: #fed227;
+}
+
+section {
+	width: 60%;
+	min-width: 300px;
+	max-width: 960px;
+	margin: 0 auto;
+	padding-top: 15%;
+}
+
+i {
+	display: inline-block;
+	vertical-align: bottom;
+	line-height: 1;
+	margin-bottom: -4px;
+	background: #fed227;
+	padding-right: 0.5em;
+	font-style: normal;
+	position: relative;
+	z-index: 2;
+}
+
+h2 + a {
+	float: right;
+	display: inline-block;
+	vertical-align: bottom;
+	line-height: 1;
+	margin-top: -1em;
+	background: #fed227;
+	padding-right: 0.5em;
+	font-family: Georgia;
+	color: #1d1d1d;
+	font-size: .75em;
+	position: relative;
+	z-index: 2;
+}
+
+h2 + a:hover {
+	color: #013068;
+}
+
+h2 + a:hover {
+	background: #fed227;
+}
+
+blockquote {
+	color: #1d1d1d;
+}
+
+body > footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: right;
+	padding-bottom: 1em;
+}
+
+.addthis_toolbox {
+	float: left;
+	margin-left: 2em;
+}
+
+body > footer > span {
+	margin-right: 2em;
+	background: #fed227;
+}
+
+@media (max-width: 700px) {
+	h2 {
+		padding-top: .5em;
+		line-height: 1;
+	}
+}

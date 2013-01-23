@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Antoine Hates
+title: home
 ---
-
-<h1>I hate things</h1>
+{% assign post = site.posts.first %}
+{% assign page = site.posts.first %}
+{% assign content = post.content %}
+{% include hate.html %}
