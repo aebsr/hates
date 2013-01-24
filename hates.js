@@ -16,11 +16,6 @@ permalink: assets/hates.js
 	// Relapse
 	hate = hatred[Math.floor(Math.random()*hatred.length)];
 
-	if ($('h2 + a').length) {
-		$('h2 + a').attr('href', hate);
-	} else {
-		$('h2').after(function() {
-			return '<a href="' + hate + '">What else?</a>';
-		});
-	}
+	$('h2 a').attr('href', hate);
+
  });

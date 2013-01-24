@@ -15,7 +15,7 @@ body {
 h2 {
 	font: 700 3em/1 "adobe-caslon-pro", "Times New Roman", Times, Georgia, serif;
 	margin: 0;
-	padding: 0.5em 0 .25em;
+	padding: 0;
 	border: 1px solid #1d1d1d;
 	border-right: none;
 	border-left: none;
@@ -23,7 +23,16 @@ h2 {
 	z-index: 1;
 }
 
-section a {
+h2 a {
+	display: block;
+	color: #013068;
+	padding: 0.5em 0 .25em;
+	background: none;
+	font-style: normal;
+	text-decoration: none;
+}
+
+section > div a {
 	color: #069dd5;
 	text-decoration: none;
 	font-style: italic;
@@ -31,7 +40,7 @@ section a {
 	background: white;
 }
 
-section a:hover {
+section > div a:hover {
 	background: #069dd5;
 	color: #fed227;
 }
@@ -54,29 +63,6 @@ i {
 	font-style: normal;
 	position: relative;
 	z-index: 2;
-}
-
-h2 + a {
-	float: right;
-	display: inline-block;
-	vertical-align: bottom;
-	line-height: 1;
-	margin-top: -1em;
-	background: #fed227;
-	padding-right: 0.5em;
-	font-family: Georgia;
-	color: #1d1d1d;
-	font-size: .75em;
-	position: relative;
-	z-index: 2;
-}
-
-h2 + a:hover {
-	color: #013068;
-}
-
-h2 + a:hover {
-	background: #fed227;
 }
 
 blockquote {
