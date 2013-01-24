@@ -92,6 +92,19 @@ body > footer {
 	padding-bottom: 1em;
 }
 
+footer:before,
+footer:after {
+	display: table;
+	content: "";
+}
+footer:after {
+	clear: both;
+}
+
+body > footer > a {
+	color: #1d1d1d;
+}
+
 .addthis_toolbox {
 	float: left;
 	margin-left: 2em;
@@ -104,7 +117,30 @@ body > footer > span {
 
 @media (max-width: 700px) {
 	h2 {
-		padding-top: .5em;
 		line-height: 1;
+	}
+
+	section {
+		padding: 1em 2em;
+	}
+
+	body > footer {
+		position: static;
+		padding-right: 2em;
+		padding-left: 2em;
+		width: auto;
+	}
+
+	body > footer > a,
+	body > footer > span {
+		display: none;
+	}
+
+	body > footer > div {
+		float: none;
+	}
+
+	.addthis_toolbox {
+		margin: 0;
 	}
 }
