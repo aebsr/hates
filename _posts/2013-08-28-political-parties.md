@@ -1,5 +1,8 @@
 ---
-published: false
+published: true
+layout: thing
+title: Political Parties
+
 ---
 
 Because you know, who doesn't.
