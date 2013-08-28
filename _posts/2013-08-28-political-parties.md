@@ -9,7 +9,7 @@ Because you know, who doesn't.
 
 But in the name of verbosity... Everyone has it wrong. I generally believe that aligning yourself with any political conglomerate is lazy and sheepish. If you agree with every point of argument for a specific group then you obviously aren't thinking for yourself, but rather compromising on whatever is important to you for sake of something else slightly more important. Offended yet?
 
-## Closet Republican
+### Closet Republican
 The wealthiest guy I know just said I was a closet republican. This is something even my wife has accused me of. While I don't identify as that or a Democrat I take special offense to this notion. And so to air it out, here's my political stance on key party [issues](http://www.ontheissues.org/default.htm#Analysis). I won't go into too much detail because laws, should be black and white and I refuse to debate grey areas.
 
 **Abortion:** It's simple, choice. With a cap on when it can be done based on whatever people smarter than I decide is too late. _Stance - blue_.
