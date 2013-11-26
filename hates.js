@@ -7,7 +7,7 @@ permalink: assets/hates.js
  	var hatred, hate;
 
 	// Issues
-	hatred = [ {% for post in site.posts %}"{{ post.url }}/",{% endfor %} ];
+	hatred = [ {% for post in site.posts %}"{{site.url}}/{{ post.url }}/",{% endfor %} ];
 	hate = hatred.indexOf(window.location.pathname);
 
 	// Therapy
